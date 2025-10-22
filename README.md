@@ -58,3 +58,12 @@ npx hardhat node
 
 # Start Streamlit dashboard
 streamlit run app.py
+
+
+
+
+flowchart TD
+A[Open Data Sources<br>(Open Supply Hub, ESG Reports)] --> B[Data Modeling<br>(JSON, PostgreSQL, Neo4j)]
+B --> C[Blockchain Anchoring<br>(Smart Contract, SHA-256, web3.py)]
+C --> D[Validation & Trust Scoring<br>(Great Expectations)]
+D --> E[Interactive Dashboard<br>(Streamlit, Leaflet, KPIs)]
