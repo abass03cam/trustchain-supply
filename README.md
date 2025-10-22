@@ -49,3 +49,14 @@ A[Open Data Sources<br>(Open Supply Hub, ESG Reports)] --> B[Data Modeling<br>(J
 B --> C[Blockchain Anchoring<br>(Smart Contract, SHA-256, web3.py)]
 C --> D[Validation & Trust Scoring<br>(Great Expectations)]
 D --> E[Interactive Dashboard<br>(Streamlit, Leaflet, KPIs)]
+
+trustchain-supply/
+│
+├── data/                # Example open datasets (CSV, JSON)
+├── blockchain/          # Smart contracts, Hardhat/Ganache configs
+├── app/                 # Streamlit / Dash front-end
+├── models/              # ML or analytics modules
+├── notebooks/           # Jupyter analysis & reports
+├── docs/                # Documentation, diagrams
+├── requirements.txt
+└── README.md
