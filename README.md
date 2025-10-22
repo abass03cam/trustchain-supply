@@ -40,3 +40,21 @@ Each event (e.g., production, transport, inspection, or delivery) is hashed and 
 4️⃣  Validation & Trust Metrics (Great Expectations)
      ↓
 5️⃣  Visualization (Streamlit + Leaflet)
+
+
+# Clone this repository
+git clone https://github.com/yourusername/trustchain-supply.git
+cd trustchain-supply
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # (on Windows: venv\Scripts\activate)
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run local blockchain (Ganache or Hardhat)
+npx hardhat node
+
+# Start Streamlit dashboard
+streamlit run app.py
