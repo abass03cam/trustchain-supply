@@ -41,4 +41,11 @@ Each event (e.g., production, transport, inspection, or delivery) is hashed and 
      ↓
 5️⃣  Visualization (Streamlit + Leaflet)
 
+The following flowchart illustrates the logical data flow of the system:
 
+```mermaid
+flowchart TD
+A[Open Data Sources<br>(Open Supply Hub, ESG Reports)] --> B[Data Modeling<br>(JSON, PostgreSQL, Neo4j)]
+B --> C[Blockchain Anchoring<br>(Smart Contract, SHA-256, web3.py)]
+C --> D[Validation & Trust Scoring<br>(Great Expectations)]
+D --> E[Interactive Dashboard<br>(Streamlit, Leaflet, KPIs)]
