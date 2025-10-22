@@ -1,0 +1,3 @@
+black==24.4.2        # Code formatter
+ruff==0.5.4          # Linter rapide
+pytest==8.2.2        # Tests unitaires
