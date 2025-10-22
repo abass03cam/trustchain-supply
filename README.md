@@ -28,3 +28,17 @@ Each event (e.g., production, transport, inspection, or delivery) is hashed and 
 
 ---
 
+## 🧠 System Architecture
+
+```text
+1️⃣  Data Sources
+     ↓
+2️⃣  Data Ingestion & Modeling (Python, Pandas)
+     ↓
+3️⃣  Blockchain Anchoring (Smart Contract + SHA-256 Hash)
+     ↓
+4️⃣  Validation & Trust Metrics (Great Expectations)
+     ↓
+5️⃣  Visualization (Streamlit + Leaflet)
+
+
