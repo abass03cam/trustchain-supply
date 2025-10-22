@@ -1,21 +1,42 @@
-🧭 Blockchain-Based Information System for Trustworthy and Sustainable Supply Chains
+# 🧭 Blockchain-Based Information System for Trustworthy and Sustainable Supply Chains
 
-This project develops a transparent, verifiable, and trustworthy information system that leverages blockchain technology and open data to strengthen trust and sustainability in global supply chains.
+This project develops a **transparent, verifiable, and trustworthy information system** that leverages **blockchain technology and open data** to strengthen **trust and sustainability** in global supply chains.  
 
-The prototype captures and visualizes key events across the entire supply chain — from production to delivery — while ensuring the integrity, authenticity, and immutability of each transaction through blockchain anchoring.
+The prototype captures and visualizes key events across the entire supply chain — from production to delivery — while ensuring the **integrity, authenticity, and immutability** of each transaction through blockchain anchoring.  
 
-🔧 Core Features
+---
 
-🌐 Open Data Integration – combines datasets from Open Supply Hub, ESG reports, and public registries
+## 🚀 Project Overview
 
-🔗 Blockchain Simulation – implemented with Ethereum, Hardhat, and web3.py to ensure data immutability
+Modern supply chains often lack visibility and verifiable data integrity.  
+This system demonstrates how **blockchain** and **open data** can enhance transparency, traceability, and sustainability by providing **a tamper-proof record** of supply chain events.  
 
-🧮 Data Modeling – PostgreSQL or Neo4j for representing Product → Batch → Facility → Event relationships
+Each event (e.g., production, transport, inspection, or delivery) is hashed and stored on a simulated blockchain to ensure trust and integrity across all stakeholders.  
 
-✅ Data Validation – powered by Great Expectations for consistency and quality assurance
+---
 
-📊 Interactive Dashboard – built with Streamlit and Leaflet.js for real-time supply chain visualization
+## 🔧 Core Features
 
-🎯 Goal
+| Category | Description |
+|-----------|--------------|
+| 🌐 **Open Data Integration** | Combines datasets from Open Supply Hub, ESG reports, or synthetic CSV/JSON samples |
+| 🔗 **Blockchain Simulation** | Implemented via Ethereum (Hardhat / Ganache) and `web3.py` |
+| 🧮 **Data Modeling** | PostgreSQL or Neo4j Graph DB — Product → Batch → Facility → Event |
+| ✅ **Data Validation** | Data quality checks using *Great Expectations* |
+| 📊 **Interactive Dashboard** | Streamlit or Plotly Dash with Leaflet.js map visualizations |
+| ♻️ **Sustainability KPIs** | Track CO₂ emissions, transport distances, traceability ratio |
 
-Deliver a working prototype that demonstrates how blockchain and open data can create transparency, traceability, and ethical accountability in modern information systems for sustainable supply chains.
+---
+
+## 🧠 System Architecture
+
+```text
+1️⃣  Data Sources
+     ↓
+2️⃣  Data Ingestion & Modeling (Python, Pandas)
+     ↓
+3️⃣  Blockchain Anchoring (Smart Contract + SHA-256 Hash)
+     ↓
+4️⃣  Validation & Trust Metrics (Great Expectations)
+     ↓
+5️⃣  Visualization (Streamlit + Leaflet)
