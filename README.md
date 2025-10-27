@@ -1,4 +1,4 @@
-# 🧭 Blockchain-Based Information System for Trustworthy and Sustainable Supply Chains
+# Blockchain-Based Information System for Trustworthy and Sustainable Supply Chains
 
 This project develops a **transparent, verifiable, and trustworthy information system** that leverages **blockchain technology and open data** to strengthen **trust and sustainability** in global supply chains.  
 
